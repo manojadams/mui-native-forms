@@ -1,6 +1,6 @@
 {
   "name": "mui-native-forms",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Material UI forms for react native",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
