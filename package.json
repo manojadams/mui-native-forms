@@ -1,6 +1,6 @@
 {
   "name": "mui-native-forms",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Material UI forms for react native",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
@@ -60,7 +60,7 @@
   "bugs": {
     "url": "https://github.com/manojadams/mui-native-forms/issues"
   },
-  "homepage": "https://github.com/manojadams/mui-native-forms#readme",
+  "homepage": "https://mui-native-forms.vercel.app/",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },

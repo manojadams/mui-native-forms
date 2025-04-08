@@ -31,7 +31,7 @@ export function MyForm() {
 ```
 
 ## Change logs
-- Updating field properties for disabled and readonly
+- Updating docs
 
 ## Contributing
 
