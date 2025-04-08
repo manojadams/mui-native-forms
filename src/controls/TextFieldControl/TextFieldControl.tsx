@@ -20,8 +20,9 @@ function TextFieldControl(props: Props) {
     return (
         <View>
             <TextInput
-                readOnly={props.field.meta.isReadonly}
                 autoComplete={props.field.meta.autoComplete as TextInputProps["autoComplete"]}
+                disabled={props.field.meta.isDisabled}
+                readOnly={props.field.meta.isReadonly}
                 label={props.field.meta.displayName}
                 error={props.error.hasError}
                 value={props.value as string}

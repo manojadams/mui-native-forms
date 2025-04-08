@@ -14,6 +14,8 @@ function DatePickerControl(props: Props) {
     return (
         <View>
             <DatePickerInput
+                disabled={props.field.meta.isDisabled}
+                readOnly={props.field.meta.isReadonly}
                 locale="en-GB"
                 label={props.field?.meta?.displayName}
                 inputMode="start"

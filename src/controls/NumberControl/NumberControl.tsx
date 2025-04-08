@@ -11,6 +11,8 @@ function NumberControl(props: Props) {
     return (
         <View>
             <TextInput
+                disabled={props.field.meta.isDisabled}
+                readOnly={props.field.meta.isReadonly}
                 keyboardType="numeric"
                 label={props.field.meta.displayName}
                 error={props.error.hasError}
